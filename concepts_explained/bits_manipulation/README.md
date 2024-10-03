@@ -1,31 +1,31 @@
-# Readme for `utils.h`
+# Readme for `bits_utils.h`
 
 This header provides functions for simple bit manipulation in hardware registers, commonly used for controlling peripherals like GPIO pins in ARM microcontrollers.
 
-## Including `utils.h`
+## Including `bits_utils.h`
 
-You can include the `utils.h` file in your project using either a relative or absolute path.
+You can include the `bits_utils.h` file in your project using either a relative or absolute path.
 
 ### Relative Path
 
-If `utils.h` is in the same directory as your source file:
+If `bits_utils.h` is in the same directory as your source file:
 
 ```c
-#include "utils.h"
+#include "bits_utils.h"
 ```
 
 If it is in a subdirectory, adjust the path accordingly:
 
 ```c
-#include "path/to/utils.h"
+#include "path/to/bits_utils.h"
 ```
 
 ### Absolute Path
 
-To include `utils.h` using an absolute path, specify the full path:
+To include `bits_utils.h` using an absolute path, specify the full path:
 
 ```c
-#include "/absolute/path/to/utils.h"
+#include "/absolute/path/to/bits_utils.h"
 ```
 
 Make sure the file is accessible in the given location to avoid compilation errors.

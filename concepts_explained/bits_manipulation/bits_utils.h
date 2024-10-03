@@ -1,5 +1,5 @@
-#ifndef UTILS_H
-#define UTILS_H
+#ifndef BITS_UTILS_H
+#define BITS_UTILS_H
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -80,4 +80,4 @@ static inline void toggle_bit(volatile uint32_t *reg, uint8_t n) {
 #define B31  0x80000000U  /* Bit 31 */
 
 
-#endif /* UTILS_H */
+#endif /* BITS_UTILS_H */
